@@ -3,7 +3,7 @@
 pragma solidity ^0.8.26;
 
 interface ERC20 {
-    function getSupply() external pure returns (uint256 supply);
+    function getTokens() external pure returns (uint256 supply);
 
     function getBalance(address addr) external view returns (uint256 balance);
 
